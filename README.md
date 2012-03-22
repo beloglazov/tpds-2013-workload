@@ -5,8 +5,7 @@ Multisize Sliding Window Workload Estimation", which has been
 submitted to the Special Issue of TPDS on Cloud Computing.
 
 The data have originally been provided as a part of the CoMon project,
-a monitoring infrastructure for PlanetLab
-(http://comon.cs.princeton.edu/).
+a monitoring infrastructure for PlanetLab: [http://comon.cs.princeton.edu/](http://comon.cs.princeton.edu/).
 
 The simulated host was assumed to be equipped with a quad-core
 CPU. The clock frequency of a single core of the host was set to 3
@@ -15,9 +14,8 @@ into 12 GHz. These CPU characteristics correspond to a mid-range
 Amazon EC2 physical server type. The amount of the host’s memory was
 assumed to be enough for the Virtual Machines (VMs) allocated to the
 host. The CPU frequency of a VM was randomly set to one of the values
-approximately corresponding to the Amazon EC2 instance types
-(http://aws.amazon.com/ec2/instance-types/): 1.7 GHz, 2 GHz, 2.4 GHz,
-and 3 GHz.
+approximately corresponding to [the Amazon EC2 instance types](http://aws.amazon.com/ec2/instance-types/): 
+1.7 GHz, 2 GHz, 2.4 GHz, and 3 GHz.
 
 The data are in the comma-delimited CSV format, where the columns are:
 
