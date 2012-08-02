@@ -1,8 +1,6 @@
-This project contains the workload traces used in the simulations for
-the paper entitled "Host Overload Detection for Dynamic Consolidation
-of Virtual Machines in Clouds Based on a Markov Chain Model and
-Multisize Sliding Window Workload Estimation", which has been
-submitted to the Special Issue of TPDS on Cloud Computing.
+This project contains the workload traces used in the simulations for the paper entitled
+["Managing Overloaded Hosts for Dynamic Consolidation of Virtual Machines in Cloud Data Centers Under Quality of Service Constraints"](http://beloglazov.info/papers/2012-host-overload-detection-tpds.pdf),
+which has been accepted to IEEE Transactions on Parallel and Distributed Systems.
 
 The data have originally been provided as a part of the CoMon project,
 a monitoring infrastructure for PlanetLab: [http://comon.cs.princeton.edu/](http://comon.cs.princeton.edu/).
@@ -14,7 +12,7 @@ into 12 GHz. These CPU characteristics correspond to a mid-range
 Amazon EC2 physical server type. The amount of the host’s memory was
 assumed to be enough for the Virtual Machines (VMs) allocated to the
 host. The CPU frequency of a VM was randomly set to one of the values
-approximately corresponding to [the Amazon EC2 instance types](http://aws.amazon.com/ec2/instance-types/): 
+approximately corresponding to [the Amazon EC2 instance types](http://aws.amazon.com/ec2/instance-types/):
 1.7 GHz, 2 GHz, 2.4 GHz, and 3 GHz.
 
 The data are in the comma-delimited CSV format, where the columns are:
